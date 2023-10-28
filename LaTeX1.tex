@@ -1,0 +1,139 @@
+\documentclass[12pt,a5paper]{exam}
+%\usepackage[charter]{mathdesign}
+\usepackage[hmargin=10mm,top=10mm,bottom=20mm]{geometry}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{fouriernc}
+\begin{document}
+
+\begin{center}
+\fbox{\fbox{\parbox{\dimexpr\linewidth-4\fboxrule-4\fboxsep\relax}{\centering
+Answer the questions in the spaces provided. If you run out of room
+for an answer, continue on the back of the page.}}}
+\end{center}
+
+\vspace{5mm}
+\makebox[0.75\textwidth]{Name and section:\enspace\hrulefill}
+
+\vspace{5mm}
+\makebox[0.75\textwidth]{Instructor’s name:\enspace\hrulefill}
+
+\begin{questions}
+\question Is it true that \(x^n + y^n = z^n\) if \(x,y,z\) and \(n\) are
+positive integers? Explain.
+
+\question Prove that the real part of all non-trivial zeros of the function
+\(\zeta(z)\) is \(\frac{1}{2}\).
+
+\question Compute \[\int_{0}^{\infty} \frac{\sin(x)}{x}\]
+
+\question 
+Prove the following identity.
+\[
+\sin (\alpha \pm\beta) =\sin\alpha \cos \beta \pm \cos\alpha \sin\beta
+\]
+
+\question
+Prove the following identity.
+\[
+f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz
+\]
+
+\question
+Prove the following identity.
+\[
+\int_D ({\nabla\cdot} F)\, \mathrm{d}V =\int_{\partial D} F\cdot n \, \mathrm{d}S
+\]
+
+
+\question
+Prove the following identity.
+\[
+\vec{\nabla} \times \vec{F} =
+            \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \hat{i}
+          + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \hat{j}
+          + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \hat{k}
+\]
+
+
+\question
+Prove the following identity.
+\[
+(\nabla_X Y)^k = X^i (\nabla_i Y)^k =
+           X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)
+\]
+
+
+\question
+Prove the following identity.
+\[
+\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
+\]
+
+
+\question
+Prove the following identity.
+\[
+\mathscr{L}\left\{f(t)\right\} = F(s)
+\]
+
+
+\question
+Prove the following identity.
+\[
+\vec{F}_\text{ext} = \lim_{\Delta t\to 0} \frac{\Delta \vec{p}}{\Delta t} = \frac{\textrm{d}\vec{p}(t)}{\textrm{d}t}
+\]
+
+\question
+Prove the following identity.
+\[
+\det (A)=\begin{vmatrix} a & b \\ c& d\end{vmatrix}
+\]
+
+\question
+Prove the following identity.
+\[
+|x|=\begin{cases} x & x>0\\ -x & x\leq 0\end{cases}
+\]
+
+\question
+Prove the following identity.
+\[
+\begin{pmatrix}
+ct'\\
+x'\\
+y'\\
+z'
+\end{pmatrix}
+=
+\begin{pmatrix}
+\gamma & -\gamma \beta & 0 & 0 \\
+-\gamma \beta & \gamma & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+ct\\
+x\\
+y\\
+z
+\end{pmatrix}
+\]
+
+\end{questions}
+\end{document}
+
+
+
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode:ChoosePlayerStart.K2Node_CallFunction_0'"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.GameplayStatics'",MemberName="GetAllActorsOfClass")
+   NodePosX=16
+   NodePosY=-176
+   NodeGuid=8C9B11664BB0948E0F441BA069CE23EF
+   CustomProperties Pin (PinId=270C10604318CA5B072F7B942C79F182,PinName="execute",PinToolTip="\nExec",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 4357E01347B2A498B3E966ABFBE364AA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=8D8E77AE4A3DE1C4CBBD4BBD971DA779,PinName="then",PinToolTip="\nExec",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_MacroInstance_0 BE69918048A9709A4E8E8FA9B41C8470,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=B6C1A6AD4839BF26B8F52BA11FE4A300,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinToolTip="Target\nGameplay Statics Object Reference",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.GameplayStatics'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__GameplayStatics",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C47FAB954550863E6868E3B9CA470F05,PinName="WorldContextObject",PinToolTip="World Context Object\nObject Reference",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/CoreUObject.Object'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=True,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=84CDA0B54EE523D149BD07A66CB5DEDB,PinName="ActorClass",PinToolTip="Actor Class\nActor Class Reference\n\nClass of Actor to find. Must be specified or result array will be empty.",PinType.PinCategory="class",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Actor'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.PlayerStart",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=4AF570804F182BBD3C5C088F53942B04,PinName="OutActors",PinToolTip="Out Actors\nArray of Player Start Object References\n\nOutput array of Actors of the specified class.",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PlayerStart'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=Array,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_MacroInstance_0 FA7B1BB74260F61CFE3336AB16A86A4B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
